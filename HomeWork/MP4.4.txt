@@ -1,0 +1,6 @@
+d = ½at² -----> 18 = ½a*5² -----> a = 36/25 = 1.44m/s² 
+F = m*a -----> 60N = (17+m)*a -----> 60/1.44) = (17+m) = 125/3 = 17+74/3 
+So m = 74/3 kg 
+The net force on the 17kg block Fnet = m*a = 17*1.44 = 24.48N. That means that 60 - T = 24.48N 
+-----> 60N - 24.48N = T = 35.52N <----- 
+Check 35.52N = 74/3kg * 1.44m/s² YES! so it checks.
