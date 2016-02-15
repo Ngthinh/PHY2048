@@ -1,0 +1,13 @@
+#!/bin/bash
+
+awk '{gsub(/ /,"\\ ")}8' list.txt > output.txt
+
+filename="output.txt"
+
+for file in $filename
+do
+#pdfx -v "$file" >> list.md
+echo "$file"
+pdfx -v "$file" >> list.md
+done
+
