@@ -1,16 +1,19 @@
-#!/bin/bash
+Document infos:
+- Pages = 1
 
-awk '{gsub(/ /,"\\ ")}8' list.txt > output.txt
+References: 1
+- URL: 1
 
-filename="output.txt"
+URL References:
+[- http://wps.pearsoned.com/aw_young_freedman_14_msa/247/63438/16240174.cw/content/index.html
+](http://)Document infos:
+- Pages = 1
 
-for file in $filename
-do
-#pdfx -v "$file" >> list.md
-echo "$file"
-pdfx -v "$file" >> list.md
-done
+References: 1
+- URL: 1
 
+URL References:
+- http://wps.pearsoned.com/aw_young_freedman_14_msa/247/63438/16240174.cw/content/index.html
 Document infos:
 - Pages = 1
 
@@ -19,14 +22,6 @@ References: 1
 
 URL References:
 - http://wps.pearsoned.com/aw_young_freedman_14_msa/247/63438/16240171.cw/content/index.html
-Document infos:
-- Pages = 1
-
-References: 1
-- URL: 1
-
-URL References:
-- http://wps.pearsoned.com/aw_young_freedman_14_msa/247/63438/16240174.cw/content/index.html
 Document infos:
 - Pages = 1
 
